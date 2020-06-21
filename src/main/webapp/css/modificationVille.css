@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+
+html,body{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+body{
+	height: 100vh;
+	background: #151519!important;
+}
+
+form{
+	margin: 20px auto;
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+	margin-top: 10px;
+}
+
+input{
+	padding: 10px;
+	font-size:inherit;
+	width: max-content;
+	margin-top: 20px!important;
+}
+
+input [type="text"]{
+	display:block;
+	margin-bottom: 25px;
+	width: 100%;
+	
+}
+
+button{
+	margin-top: 25px;
+	width:125px;
+	text-align:center
+}

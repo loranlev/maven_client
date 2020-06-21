@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+body{
+	height: 100vh;
+	background: #151519!important;
+	color:white!important;
+}
+
+select{
+	width: max-content!important;
+}

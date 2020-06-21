@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>TP_ESEO_client</display-name>
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>CalculDistance</display-name>
+    <servlet-name>CalculDistance</servlet-name>
+    <servlet-class>com.servlets.CalculDistance</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CalculDistance</servlet-name>
+    <url-pattern>/CalculDistance</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteVille</display-name>
+    <servlet-name>DeleteVille</servlet-name>
+    <servlet-class>com.servlets.DeleteVille</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteVille</servlet-name>
+    <url-pattern>/DeleteVille</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateVille</display-name>
+    <servlet-name>UpdateVille</servlet-name>
+    <servlet-class>com.servlets.UpdateVille</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateVille</servlet-name>
+    <url-pattern>/UpdateVille</url-pattern>
+  </servlet-mapping>
+</web-app>
